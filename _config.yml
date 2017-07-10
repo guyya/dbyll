@@ -5,25 +5,25 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: guyya
+google_analytics: guyya
+title: Make Exclusive Game
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Make Exclusive Game
 
-description: Stylish Jekyll Theme
+description: Blog for game development history...
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
+  name: guyya
+  email: guyya@ismaildemirbilek.com
+  github: guyya
+  twitter: guyya
+  pinterest: guyya
+  linkedin: guyya
   bio: Your stylish, minimalist theme!
   email_md5: 726351295ec82e145928582f595aa3aa
 
