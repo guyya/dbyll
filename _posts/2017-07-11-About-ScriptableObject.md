@@ -64,4 +64,26 @@ PlayerData data;
 
 Data.Save<PlayerData>(data, "playerdata.gd");
 data = Data.Load<PlayerData>("playerdata.gd");
+
 {% endhighlight %}
+
+??
+
+그렇다면 ScriptableObject는 어떻게 쓰는 것일까? 처음에 UnityEditor상에서 ScriptableObject
+를 상속받은 클래스 역시 마치 파일에 저장/로딩되는 것처럼 에디터상에서 수정된 값이 유지되고,
+심지어 게임 플레이 도중의 값 역시 유지된다. (실제로는 그렇지 않다)
+
+그래서 위의 PlayerData와 마치 동일하고 ScriptableObject로 게임데이타를 저장할 수 있지 않나
+착각했었다. (적어도 필자는 그랬다. 마이 헷갈려;;)
+
+하지만 결론은 다음과 같다.
+* ScriptableObject는 에디터 상에서만 값이 유지된다.
+* ScriptableObject는 게임 플레이 도중의 값을 저장하는 용도롤 쓸 수 없다.
+* ScriptableObject는 개발자(기획자)가 기입하는 고정된 게임 데이타 이다.  
+
+정확한 정의는 아니지만 "게임데이타"와 "플레이데이타"는 다르다.
+
+* 게임데이타 : 게임을 위해서 개발자가 작성한 고정된 데이타
+* 플레이데이타: 유저가 게임플레이로 만들어가는 변동적인 데이타
+
+예를 들어 스킬을 예시로 할 수 있겠다.
