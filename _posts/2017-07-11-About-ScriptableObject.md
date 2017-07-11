@@ -54,7 +54,6 @@ public class Data
         return new T();
     }
 }
-
 {% endhighlight %}
 
 위 코드에서 PlayerData 를 저장/로딩하려면 아래 처럼 하면 된다.
@@ -64,7 +63,6 @@ PlayerData data;
 
 Data.Save<PlayerData>(data, "playerdata.gd");
 data = Data.Load<PlayerData>("playerdata.gd");
-
 {% endhighlight %}
 
 ??
