@@ -54,7 +54,6 @@ public class Data
         return new T();
     }
 }
-
 {% endhighlight %}
 
 위 코드에서 PlayerData 를 저장/로딩하려면 아래 처럼 하면 된다.
@@ -64,7 +63,6 @@ PlayerData data;
 
 Data.Save<PlayerData>(data, "playerdata.gd");
 data = Data.Load<PlayerData>("playerdata.gd");
-
 {% endhighlight %}
 
 ??
@@ -77,9 +75,9 @@ data = Data.Load<PlayerData>("playerdata.gd");
 착각했었다. (적어도 필자는 그랬다. 마이 헷갈려;;)
 
 하지만 결론은 다음과 같다.
-* ScriptableObject는 에디터 상에서만 값이 유지된다.
+* ScriptableObject는 에디터에서만 수정가능하다.
 * ScriptableObject는 게임 플레이 도중의 값을 저장하는 용도롤 쓸 수 없다.
-* ScriptableObject는 개발자(기획자)가 기입하는 고정된 게임 데이타 이다.  
+* ScriptableObject는 개발자(기획자)가 기입하는 고정된 게임 데이타로 적합하다.  
 
 정확한 정의는 아니지만 "게임데이타"와 "플레이데이타"는 다르다.
 
