@@ -3,6 +3,7 @@ layout: post
 title: About ScriptableObject (PartyFD)
 categories: project
 tags: [game, unity3d]
+comments: true
 description: Data storage & ScriptableObject in Unity
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: AI Design Using Behaviour Tree (PartyFD)
 categories: project
 tags: [game, unity3d, ai, Behaviour tree]
+comments: true
 description: Using free Behaviour Tree of unity asset-store, we can make ai :)
 ---
 
@@ -21,5 +22,3 @@ Ranged Mage Character (원거리 마법사)의 AI memo
 위의 액션과 우선순위는 캐릭터 특성을 따르므로 날코딩으로 할 경우 일이 줄지 않는다.
 
 그래서 unity asset중 무료 behaviour tree솔루션인 Behaviour Bricks를 이용하여 구현한다. 자유도 높고 간단한 편이다
-
-
