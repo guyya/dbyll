@@ -1,0 +1,3 @@
+User-agent: * 
+
+Allow: / Sitemap: http://guyya.github.io/sitemap.xml
