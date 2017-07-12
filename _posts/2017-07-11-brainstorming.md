@@ -3,6 +3,7 @@ layout: post
 title: Brainstorming (PartyFD)
 categories: project
 tags: [rpg, game, 2d, project]
+comments: true
 description: 모바일 환경에 맞는 최소환 컨트롤을 지향하는 게임에 대한 아이디어
 ---
 
