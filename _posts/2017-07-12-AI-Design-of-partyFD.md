@@ -22,6 +22,10 @@ Ranged Mage Character (원거리 마법사)의 AI memo
 위의 액션과 우선순위는 캐릭터 특성을 따르므로 날코딩으로 할 경우 일이 줄지 않는다.
 
 그래서 unity asset중 무료 behaviour tree솔루션인 Behaviour Bricks를 이용하여 구현한다. 자유도 높고 간단한 편이다
-이 [문서]({{ site.url }}/assets/media/QuickStartGuide.pdf)를 참조하여 간단한 사용법을 익힐 수 있다. 
+이 [QuickStartGuide]({{ site.url }}/assets/media/QuickStartGuide.pdf)를 참조하여 간단한 사용법을 익힐 수 있다. 
 
-프로그래머를 위한 문서는 [여기서]({{ site.url }}/assets/media/ProgrammersQuickStartGuide.pdf) 확인할 수 있다.
+프로그래머를 위한 문서는 [ProgrammersQuickStartGuide]({{ site.url }}/assets/media/ProgrammersQuickStartGuide.pdf) 확인할 수 있다.
+
+주의할 노드는 decorator기능을 수행하는 컨퍼넌트노드인 priority selector이다. 이 노드는 연결된 하위 노드들의 condition을 매번 재평가하고 변경을 감지하여 abort한다. 예를 들어 마우스클릭(조건)을 감지하여 액션을 수행중이더라도 마우스클릭을 재평가해서 액션을 중지실 수 있다. (끔찍?) 이 경우 조건노드에 재평가를 미루는 함수2개를 제공하니 override하면 된다.
+
+다시 원거리 마법사로 넘어와서 
