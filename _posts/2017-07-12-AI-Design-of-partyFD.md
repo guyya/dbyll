@@ -31,3 +31,5 @@ Ranged Mage Character (원거리 마법사)의 AI memo
 다시 원거리 마법사로 넘어와서 BB를 이용하여 구현하였다.
 
 ![My helpful screenshot]({{ site.url }}/assets/media/ranged-mage-ai.png)
+
+유저에 의해 이동이 발생하면 모든 캐릭터는 강제 이동을 한다. 
