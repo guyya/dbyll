@@ -7,6 +7,7 @@ comments: true
 description: Data storage & ScriptableObject in Unity
 ---
 
+{% highlight c# %}
 유저가 Game을 진행하다보면 진행상황과 성장된 스탯등을 기록할 필요가 있다.
 다시 게임을 시작했을 떄 리셋되지 않아야 할 데이타이다.
 
@@ -86,3 +87,4 @@ data = Data.Load<PlayerData>("playerdata.gd");
 * 플레이데이타: 유저가 게임플레이로 만들어가는 변동적인 데이타
 
 예를 들어 스킬을 예시로 할 수 있겠다.
+{% endhighlight %}
