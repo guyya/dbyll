@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Design Using Behaviour Tree (PartyFD)
-categories: project
+categories: prj@@PartyFD
 tags: [game, unity3d, ai, Behaviour tree]
 comments: true
 description: Using free Behaviour Tree of unity asset-store, we can make ai :)
@@ -32,4 +32,4 @@ Ranged Mage Character (원거리 마법사)의 AI memo
 
 ![My helpful screenshot]({{ site.url }}/assets/media/ranged-mage-ai.png)
 
-유저에 의해 이동이 발생하면 모든 캐릭터는 강제 이동을 한다. 
+유저에 의해 이동이 발생하면 모든 캐릭터는 강제 이동을 한다.
