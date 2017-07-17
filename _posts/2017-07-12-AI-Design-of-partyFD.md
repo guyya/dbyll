@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Design Using Behaviour Tree (PartyFD)
-categories: prj@@PartyFD
+categories: Prj.PartyFD
 tags: [game, unity3d, ai, Behaviour tree]
 comments: true
 description: Using free Behaviour Tree of unity asset-store, we can make ai :)
